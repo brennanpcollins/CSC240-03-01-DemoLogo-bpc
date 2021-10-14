@@ -9,6 +9,10 @@ namespace CSC240_03_01_DemoLogo_bpc
             Write("Our company is ");
             DisplayCompanyLogo();
         }
-
+        private static void DisplayCompanyLogo()
+        {
+            WriteLine("See Sharp Optical");
+            WriteLine("We prize your eyes");
+        }
     }
 }
